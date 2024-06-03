@@ -3688,11 +3688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
+      "projectUniqueName": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
       "projectName": "HalcyonJuegoSensorial.Android",
-      "projectPath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
+      "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
       "packagesPath": "C:\\Users\\joser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\obj\\",
+      "outputPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3713,8 +3713,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
-              "projectPath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj"
+            "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
+              "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj"
             }
           }
         }

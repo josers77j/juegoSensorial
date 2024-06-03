@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YdPt0GtmARmUKfPuY9fOsGna2lrkcwKllv7IwjkQM8IEtCdaA+AjjxDesvIQ6LxHCgybWL14IzmIy4NizHlIsw==",
+  "dgSpecHash": "i5kCl89PbnpSEpfMzJyYRht5/3RLWHO7Tp/uvRzV7xA3QJlUl1an5icpHI+DKNSAKm/6bxB4k6wAKgRuMD1h0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.UWP\\HalcyonJuegoSensorial.UWP.csproj",
+  "projectFilePath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.UWP\\HalcyonJuegoSensorial.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joser\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\joser\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

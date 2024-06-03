@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w4lxLm/WM6lfm6m2RQuJ8wLqn1eMHwyuAfdsQMCn/bt6brdkt9ay/vV5fs8eiPQymw8Zk1J3ojeNBlGaFDBa3Q==",
+  "dgSpecHash": "C6VWZ6CZ0xrbdNdL+WoaPhzJW25MGcoQ7Ox0A/LpVmn3URd6QqqtdpY1wkx3wyLce9L1OjWoIhiy7cF0AqZufQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj",
+  "projectFilePath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joser\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\joser\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

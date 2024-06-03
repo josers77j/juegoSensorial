@@ -1916,11 +1916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.iOS\\HalcyonJuegoSensorial.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.iOS\\HalcyonJuegoSensorial.iOS.csproj",
       "projectName": "HalcyonJuegoSensorial.iOS",
-      "projectPath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.iOS\\HalcyonJuegoSensorial.iOS.csproj",
+      "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.iOS\\HalcyonJuegoSensorial.iOS.csproj",
       "packagesPath": "C:\\Users\\joser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.iOS\\obj\\",
+      "outputPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1941,8 +1941,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
-              "projectPath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj"
+            "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
+              "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj"
             }
           }
         }
@@ -1955,21 +1955,9 @@
             "target": "Package",
             "version": "[1.7.0, )"
           },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
-          },
-          "sqlite-net-pcl": {
-            "target": "Package",
-            "version": "[1.9.172, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

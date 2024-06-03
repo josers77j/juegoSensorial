@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o7aw8nutp9KqSZ769tCURQGqQJiTXacn5wbq0hyfchxbJqt4/L8FeejiaXoCSSi0JA7CYc7CvIArWZmchvtImA==",
+  "dgSpecHash": "XF5zOeg9+08vW1khwdLAhWeN3vKvKJEufcvbAcBYiYvpsUxhawzGxTmXUhBI/Zuq2P9EIH0noVKT6Y00oor4dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joser\\Documents\\app_sensorial\\Proyecto_App\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
+  "projectFilePath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joser\\.nuget\\packages\\sqlite-net-pcl\\1.9.172\\sqlite-net-pcl.1.9.172.nupkg.sha512",
     "C:\\Users\\joser\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.2\\sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",
