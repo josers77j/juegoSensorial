@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HalcyonJuegoSensorial.MainPage">
+
+    <StackLayout Padding="10">
+        <Label Text="Ingrese su nombre de usuario:" />
+        <Entry x:Name="UsernameEntry" Placeholder="Nombre de usuario" />
+        <Button Text="Guardar" Clicked="OnGuardarClicked" />
+        <Button Text="Ver Usuarios" Clicked="OnVerUsuariosClicked" />
+    </StackLayout>
+
+</ContentPage>
