@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HalcyonJuegoSensorial.viewLayer.primerDesafio.NivelesDesafio.ViewPrimerNivel">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Nivel 1" FontSize="Large" HorizontalOptions="Center" />
+            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
+            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
+            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
+            <Button Text="Es la respuesta" Clicked="OnCorrectAnswerClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

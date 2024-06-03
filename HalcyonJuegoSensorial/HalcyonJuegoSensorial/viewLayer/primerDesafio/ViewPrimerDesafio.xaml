@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <StackLayout Padding="10">
             <Label Text="Desafío 1" FontSize="Large" HorizontalOptions="Center" />
+            <Label x:Name="PuntajeLabel" FontSize="Medium" HorizontalOptions="Center" />
             <Button Text="Nivel 1" Clicked="OnNivel1Clicked" />
             <Button Text="Nivel 2" Clicked="OnNivel2Clicked" />
             <Button Text="Nivel 3" Clicked="OnNivel3Clicked" />

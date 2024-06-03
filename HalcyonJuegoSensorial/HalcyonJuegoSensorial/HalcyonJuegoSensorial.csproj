@@ -19,13 +19,31 @@
 
   <ItemGroup>
     <Folder Include="bussinesLayer\" />
-    <Folder Include="viewLayer\primerDesafio\NivelesDesafio\" />
-    <Folder Include="viewLayer\SegundoDesafio\NivelesDesafio\" />
-    <Folder Include="viewLayer\TercerDesafio\NivelesDesafio\" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="viewLayer\primerDesafio\NivelesDesafio\ViewPrimerNivel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="viewLayer\primerDesafio\NivelesDesafio\ViewSegundoNivel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="viewLayer\primerDesafio\NivelesDesafio\ViewTercerNivel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="viewLayer\primerDesafio\ViewPrimerDesafio.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="viewLayer\SegundoDesafio\NivelesDesafio\ViewPrimerNivel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="viewLayer\SegundoDesafio\NivelesDesafio\ViewSegundoNivel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="viewLayer\SegundoDesafio\NivelesDesafio\ViewTercerNivel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="viewLayer\SegundoDesafio\ViewSegundoDesafio.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="viewLayer\ViewMenu.xaml">

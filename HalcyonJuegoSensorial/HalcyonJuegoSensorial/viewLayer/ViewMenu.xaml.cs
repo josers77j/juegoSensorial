@@ -1,5 +1,7 @@
 ﻿using HalcyonJuegoSensorial.dataLayer;
+using HalcyonJuegoSensorial.modelLayer;
 using HalcyonJuegoSensorial.viewLayer.primerDesafio;
+using HalcyonJuegoSensorial.viewLayer.SegundoDesafio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,17 +17,31 @@ namespace HalcyonJuegoSensorial.viewLayer
     public partial class ViewMenu : ContentPage
     {
         private readonly DataBase _database;
+        private ModelUser _usuario;
         public ViewMenu()
         {
             _database = new DataBase();
             InitializeComponent();
-            WelcomeLabel.Text = $"Bienvenido, {Preferences.Get("NombreUsuario", "Usuario")}";
+            LoadUsuario();
+         
         }       
         private async void OnVerUsuariosClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ViewScore());
         }
-
+        private async Task LoadUsuario()
+        {
+            string nombreUsuario = Preferences.Get("NombreUsuario", string.Empty);
+            if (!string.IsNullOrWhiteSpace(nombreUsuario))
+            {
+                _usuario = await _database.GetUsuarioByNameAsync(nombreUsuario);
+                if (_usuario != null)
+                {
+                    PuntajeLabel.Text = $"Puntaje: {_usuario.Puntuacion}";
+                    WelcomeLabel.Text = $"Bienvenido, {Preferences.Get("NombreUsuario", "Usuario")}";
+                }
+            }
+        }
         private async void OnSalirClicked(object sender, EventArgs e)
         {
             Preferences.Remove("NombreUsuario");
@@ -34,6 +50,15 @@ namespace HalcyonJuegoSensorial.viewLayer
         private async void OnDesafio1Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ViewPrimerDesafio());
+        }
+        private async void OnDesafio2Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ViewSegundoDesafio());
+        }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await LoadUsuario();
         }
     }
 }

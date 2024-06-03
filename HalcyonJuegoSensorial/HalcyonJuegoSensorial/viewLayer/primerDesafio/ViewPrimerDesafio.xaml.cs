@@ -1,5 +1,6 @@
 ﻿using HalcyonJuegoSensorial.dataLayer;
 using HalcyonJuegoSensorial.modelLayer;
+using HalcyonJuegoSensorial.viewLayer.primerDesafio.NivelesDesafio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,10 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio
             if (!string.IsNullOrWhiteSpace(nombreUsuario))
             {
                 _usuario = await _database.GetUsuarioByNameAsync(nombreUsuario);
+                if (_usuario != null)
+                {
+                    PuntajeLabel.Text = $"Puntaje: {_usuario.Puntuacion}";
+                }
             }
         }
 
@@ -36,8 +41,7 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio
         {
             if (_usuario != null && _usuario.Puntuacion >= 0)
             {
-                await DisplayAlert("Acceso Permitido", "Bienvenido al Nivel 1", "OK");
-                // Navegar a la página del Nivel 1
+                await Navigation.PushAsync(new ViewPrimerNivel());
             }
             else
             {
@@ -49,8 +53,7 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio
         {
             if (_usuario != null && _usuario.Puntuacion >= 70)
             {
-                await DisplayAlert("Acceso Permitido", "Bienvenido al Nivel 2", "OK");
-                // Navegar a la página del Nivel 2
+                await Navigation.PushAsync(new ViewSegundoNivel());
             }
             else
             {
@@ -62,13 +65,18 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio
         {
             if (_usuario != null && _usuario.Puntuacion > 170)
             {
-                await DisplayAlert("Acceso Permitido", "Bienvenido al Nivel 3", "OK");
-                // Navegar a la página del Nivel 3
+                await Navigation.PushAsync(new ViewTercerNivel());
             }
             else
             {
                 await DisplayAlert("Acceso Restringido", "No tienes el puntaje suficiente para acceder al Nivel 3.", "OK");
             }
         }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await LoadUsuario();
+        }
+
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HalcyonJuegoSensorial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17cfd4c1fed1715655225fc8451c1c38dbfed551")]
 [assembly: System.Reflection.AssemblyProductAttribute("HalcyonJuegoSensorial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HalcyonJuegoSensorial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
