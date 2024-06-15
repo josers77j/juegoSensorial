@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj": {}
+    "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj": {
+    "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
+        "projectUniqueName": "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
         "projectName": "HalcyonJuegoSensorial.Android",
-        "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
-        "packagesPath": "C:\\Users\\joser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\obj\\",
+        "projectPath": "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\HalcyonJuegoSensorial.Android.csproj",
+        "packagesPath": "C:\\Users\\jordi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jordi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,16 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
-                "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj"
+              "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
+                "projectPath": "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj"
               }
             }
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,20 +63,20 @@
         }
       }
     },
-    "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
+    "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj",
+        "projectUniqueName": "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj",
         "projectName": "HalcyonJuegoSensorial",
-        "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj",
-        "packagesPath": "C:\\Users\\joser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\obj\\",
+        "projectPath": "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj",
+        "packagesPath": "C:\\Users\\jordi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jordi\\source\\repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jordi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,6 +98,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -129,7 +139,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,6 +22,7 @@ namespace HalcyonJuegoSensorial.viewLayer
             _database = new DataBase();
             LoadUsers();
         }
+
         private async Task LoadUsers()
         {
             List<ModelUser> users = await _database.GetUsuariosAsync();

@@ -4,11 +4,15 @@
              x:Class="HalcyonJuegoSensorial.viewLayer.SegundoDesafio.ViewSegundoDesafio">
     <ContentPage.Content>
         <StackLayout Padding="10">
-            <Label Text="Desafío 2" FontSize="Large" HorizontalOptions="Center" />
+            <BoxView HeightRequest="25" Color="Transparent" /> <!-- Espacio de 20 unidades -->
+            <Label Text="Frutas" FontSize="Large" HorizontalOptions="Center" FontAttributes="Bold" Margin="10" />
+            <ImageButton Source="frutas_logo.png" CornerRadius="15" Aspect="Fill" HeightRequest="205" WidthRequest="205" HorizontalOptions="Center" VerticalOptions="Center" />
+            <BoxView HeightRequest="20" Color="Transparent" /> <!-- Espacio de 20 unidades -->
             <Label x:Name="PuntajeLabel" FontSize="Medium" HorizontalOptions="Center" />
-            <Button Text="Nivel 1" Clicked="OnNivel1Clicked" />
-            <Button Text="Nivel 2" Clicked="OnNivel2Clicked" />
-            <Button Text="Nivel 3" Clicked="OnNivel3Clicked" />
+            <BoxView HeightRequest="5" Color="Transparent" /> <!-- Espacio de 5 unidades -->
+            <Button Text="FÁCIL" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnNivel1Clicked" Margin="3" />
+            <Button Text="MEDIO" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnNivel2Clicked" Margin="3" />
+            <Button Text="DÍFICIL" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnNivel3Clicked" Margin="3" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

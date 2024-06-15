@@ -17,6 +17,7 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio
     {
         private readonly DataBase _database;
         private ModelUser _usuario;
+
         public ViewPrimerDesafio()
         {
             InitializeComponent();

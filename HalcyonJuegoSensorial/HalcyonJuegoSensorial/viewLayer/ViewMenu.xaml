@@ -4,11 +4,14 @@
              x:Class="HalcyonJuegoSensorial.viewLayer.ViewMenu">
     <ContentPage.Content>
         <StackLayout Padding="10">
-            <Label x:Name="WelcomeLabel" />
-            <Label x:Name="PuntajeLabel" FontSize="Medium" HorizontalOptions="Center" />
-            <Button Text="Desafío 1" Clicked="OnDesafio1Clicked" />
-            <Button Text="Desafío 2" Clicked="OnDesafio2Clicked" />
-            <Button Text="Salir" Clicked="OnSalirClicked" />
+            <BoxView HeightRequest="25" Color="Transparent" /> <!-- Espacio de 20 unidades -->
+            <Label x:Name="WelcomeLabel" FontSize="Medium" HorizontalOptions="Center" Margin="15" />
+            <Label x:Name="PuntajeLabel" FontSize="Large" HorizontalOptions="Center" FontAttributes="Bold" Margin="10" />
+            <ImageButton Source="animales.png" Aspect="Fill" CornerRadius="15" HeightRequest="68" WidthRequest="328" HorizontalOptions="Center" Clicked="OnDesafio1Clicked" Margin="3" />
+            <ImageButton Source="frutas.png" Aspect="Fill" CornerRadius="15" HeightRequest="68" WidthRequest="328" HorizontalOptions="Center" Clicked="OnDesafio2Clicked" Margin="3" />
+            <ImageButton Source="objetos.png" Aspect="Fill" CornerRadius="15" HeightRequest="68" WidthRequest="328" HorizontalOptions="Center" Clicked="OnDesafio3Clicked" Margin="3" />
+            <BoxView HeightRequest="20" Color="Transparent" /> <!-- Espacio de 20 unidades -->
+            <Button Text="Salir" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnSalirClicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

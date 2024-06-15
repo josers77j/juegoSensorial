@@ -4,11 +4,19 @@
              x:Class="HalcyonJuegoSensorial.viewLayer.primerDesafio.NivelesDesafio.ViewSegundoNivel">
     <ContentPage.Content>
         <StackLayout Padding="10">
+            <BoxView HeightRequest="25" Color="Transparent" /> <!-- Espacio de 20 unidades -->
             <Label Text="Nivel 2" FontSize="Large" HorizontalOptions="Center" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="Es la respuesta" Clicked="OnCorrectAnswerClicked" />
+            <ImageButton Source="gato.png" Aspect="Fill" HeightRequest="205" WidthRequest="200" HorizontalOptions="CenterAndExpand" Clicked="OnImageClicked" />
+            <Label Text="Con patas sigilosas y un ronroneo suave, en la noche maúllo, ¿qué soy?" FontSize="Body" HorizontalTextAlignment="Center" Padding="25"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="TIGRE" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3"/>
+                <Button Text="LEÓN" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="GATO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnCorrectAnswerClicked" Margin="3"/>
+                <Button Text="GUEPARDO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <Button Text="PUMA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

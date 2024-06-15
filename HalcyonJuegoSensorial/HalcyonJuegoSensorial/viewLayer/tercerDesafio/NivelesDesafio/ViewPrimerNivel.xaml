@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HalcyonJuegoSensorial.viewLayer.tercerDesafio.NivelesDesafio.ViewPrimerNivel">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <BoxView HeightRequest="25" Color="Transparent" /> <!-- Espacio de 20 unidades -->
+            <Label Text="Nivel 1" FontSize="Large" HorizontalOptions="Center" />
+            <ImageButton Source="mesa.png" Aspect="Fill" HeightRequest="205" WidthRequest="200" HorizontalOptions="CenterAndExpand" Clicked="OnImageClicked" />
+            <Label Text="Estoy en la casa y también en la escuela, tengo cuatro patas y un mantel de tela." FontSize="Body" HorizontalTextAlignment="Center" Padding="25"/>
+            <Button Text="REGLA" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            <Button Text="LIBRO" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            <Button Text="MESA" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnCorrectAnswerClicked" Margin="3" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

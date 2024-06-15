@@ -4,11 +4,23 @@
              x:Class="HalcyonJuegoSensorial.viewLayer.SegundoDesafio.NivelesDesafio.ViewTercerNivel">
     <ContentPage.Content>
         <StackLayout Padding="10">
-            <Label Text="Nivel 1" FontSize="Large" HorizontalOptions="Center" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="Es la respuesta" Clicked="OnCorrectAnswerClicked" />
+            <BoxView HeightRequest="25" Color="Transparent" /> <!-- Espacio de 20 unidades -->
+            <Label Text="Nivel 3" FontSize="Large" HorizontalOptions="Center" />
+            <ImageButton Source="ciruela.png" Aspect="Fill" HeightRequest="205" WidthRequest="200" HorizontalOptions="CenterAndExpand" Clicked="OnImageClicked" />
+            <Label Text="Es una fruta de hueso, de piel lisa y color morado." FontSize="Body" HorizontalTextAlignment="Center" Padding="25"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="CIRUELA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnCorrectAnswerClicked" Margin="3" />
+                <Button Text="PIÑA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="GUAYABA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+                <Button Text="DURAZNO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="KIWI" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+                <Button Text="GRANADILLA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <Button Text="TORONJA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
