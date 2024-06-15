@@ -17,6 +17,7 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio.NivelesDesafio
         private readonly DataBase _database;
         private ModelUser _usuario;
         private int _intentos;
+
         public ViewSegundoNivel()
         {
             InitializeComponent();
@@ -24,6 +25,7 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio.NivelesDesafio
             LoadUsuario();
             _intentos = 0;
         }
+
         private async Task LoadUsuario()
         {
             string nombreUsuario = Preferences.Get("NombreUsuario", string.Empty);
@@ -41,17 +43,29 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio.NivelesDesafio
                 int puntosPerdidos = 25 * _intentos;
                 int puntosRestantes = 100 - puntosPerdidos;
 
-                if (puntosRestantes <= 0)
+                if (_usuario.Puntuacion >= 200)
                 {
+                    await DisplayAlert("Nivel Completado", "Ya has alcanzado el máximo de puntos para este nivel.", "OK");
+                    await Navigation.PopAsync();
+                }
+                else if (puntosRestantes <= 0)
+                {
+                    Button button = (Button)sender;
+                    button.BackgroundColor = Color.Red; //se pone de color rojo el botón
+
                     await DisplayAlert("Inténtalo de nuevo", "Has perdido todos los puntos. Inténtalo nuevamente.", "OK");
                     await Navigation.PopAsync();
                 }
                 else
                 {
+                    Button button = (Button)sender;
+                    button.BackgroundColor = Color.Red; //se pone de color rojo el botón
+
                     await DisplayAlert("Respuesta incorrecta", $"Has perdido {puntosPerdidos} puntos. Puntos restantes: {puntosRestantes}.", "OK");
                 }
             }
         }
+
         private async void OnCorrectAnswerClicked(object sender, EventArgs e)
         {
             if (_usuario != null)
@@ -64,14 +78,35 @@ namespace HalcyonJuegoSensorial.viewLayer.primerDesafio.NivelesDesafio
                 }
                 else
                 {
+                    Vibration.Vibrate(TimeSpan.FromMilliseconds(500)); // Vibra al seleccionar respuesta correcta
+
                     _usuario.Puntuacion += puntosGanados;
                     if (_usuario.Puntuacion > 200) _usuario.Puntuacion = 200; // Máximo de puntos para el nivel 2
                     await _database.SaveUsuarioAsync(_usuario);
+
+                    Button button = (Button)sender;
+                    button.BackgroundColor = Color.Green; //se pone de color verde el botón
+
                     await DisplayAlert("Respuesta correcta", $"Has ganado {puntosGanados} puntos.", "OK");
                 }
 
                 await Navigation.PopAsync();
             }
+        }
+
+        private async void OnImageClicked(object sender, EventArgs e) // Al tocar la imagen suena audio
+        {
+            var text = "Con patas sigilosas y un ronroneo suave, en la noche maúllo, ¿qué soy?";
+
+            var locales = await TextToSpeech.GetLocalesAsync();
+            var spanishLocale = locales.FirstOrDefault(locale => locale.Language == "es" && locale.Country == "ES");
+
+            var settings = new SpeechOptions()
+            {
+                Locale = spanishLocale
+            };
+
+            await TextToSpeech.SpeakAsync(text, settings);
         }
     }
 }

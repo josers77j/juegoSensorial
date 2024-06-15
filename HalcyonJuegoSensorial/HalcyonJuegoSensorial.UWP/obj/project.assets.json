@@ -7537,7 +7537,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
+      "sha512": "ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -12374,26 +12374,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joser\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
+    "C:\\Users\\jordi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.UWP\\HalcyonJuegoSensorial.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\jordi\\Source\\Repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.UWP\\HalcyonJuegoSensorial.UWP.csproj",
       "projectName": "HalcyonJuegoSensorial.UWP",
-      "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.UWP\\HalcyonJuegoSensorial.UWP.csproj",
-      "packagesPath": "C:\\Users\\joser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.UWP\\obj\\",
+      "projectPath": "C:\\Users\\jordi\\Source\\Repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.UWP\\HalcyonJuegoSensorial.UWP.csproj",
+      "packagesPath": "C:\\Users\\jordi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jordi\\Source\\Repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\joser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jordi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -12407,11 +12405,16 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
-              "projectPath": "C:\\Users\\joser\\Documents\\pruebaaaa\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj"
+            "C:\\Users\\jordi\\Source\\Repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj": {
+              "projectPath": "C:\\Users\\jordi\\Source\\Repos\\juegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial\\HalcyonJuegoSensorial.csproj"
             }
           }
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

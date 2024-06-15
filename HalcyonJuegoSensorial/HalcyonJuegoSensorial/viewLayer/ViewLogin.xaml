@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HalcyonJuegoSensorial.viewLayer.ViewLogin">
+    
+    <StackLayout Padding="10">
+        <BoxView HeightRequest="25" Color="Transparent" /> <!-- Espacio de 20 unidades -->
+        <Image Source="usuario_logo.png" HeightRequest="205" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" />
+        <Label Text="Ingrese su nombre de usuario:" FontSize="Medium" HorizontalOptions="Center" />
+        <Entry x:Name="UsernameEntry" Placeholder="Nombre de usuario" WidthRequest="328" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15">
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter Property="Placeholder" Value=""/>
+                </Trigger>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="False">
+                    <Setter Property="Placeholder" Value="Nombre de usuario"/>
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+        <Button Text="Guardar" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnGuardarClicked" />
+        <Button Text="Ver Usuarios" CornerRadius="15" WidthRequest="328" HorizontalOptions="Center" Clicked="OnVerUsuariosClicked" />
+    </StackLayout>
+</ContentPage>

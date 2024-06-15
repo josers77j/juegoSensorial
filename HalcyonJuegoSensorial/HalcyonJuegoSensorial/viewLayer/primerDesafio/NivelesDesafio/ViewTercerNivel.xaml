@@ -4,11 +4,23 @@
              x:Class="HalcyonJuegoSensorial.viewLayer.primerDesafio.NivelesDesafio.ViewTercerNivel">
     <ContentPage.Content>
         <StackLayout Padding="10">
-            <Label Text="Nivel 2" FontSize="Large" HorizontalOptions="Center" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="Es la respuesta" Clicked="OnCorrectAnswerClicked" />
+            <BoxView HeightRequest="25" Color="Transparent" /> <!-- Espacio de 20 unidades -->
+            <Label Text="Nivel 3" FontSize="Large" HorizontalOptions="Center" />
+            <ImageButton Source="aguila.png" Aspect="Fill" HeightRequest="205" WidthRequest="200" HorizontalOptions="CenterAndExpand" Clicked="OnImageClicked" />
+            <Label Text="Es conocido por su gran agudeza visual y vuelo majestuoso." FontSize="Body" HorizontalTextAlignment="Center" Padding="25"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="PAVO REAL" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3"/>
+                <Button Text="PATO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="PERICO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+                <Button Text="AVESTRUZ" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="GALLO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3"/>
+                <Button Text="LORO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <Button Text="ÁGUILA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnCorrectAnswerClicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

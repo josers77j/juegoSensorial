@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638529647520699165
+_nugetassetstimestamp=638536565174133864
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\joser\documents\pruebaaaa\halcyonjuegosensorial\halcyonjuegosensorial.android\halcyonjuegosensorial.android.csproj
+projectfullpath=c:\users\jordi\source\repos\juegosensorial\halcyonjuegosensorial\halcyonjuegosensorial.android\halcyonjuegosensorial.android.csproj

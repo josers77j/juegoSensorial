@@ -4,11 +4,19 @@
              x:Class="HalcyonJuegoSensorial.viewLayer.SegundoDesafio.NivelesDesafio.ViewSegundoNivel">
     <ContentPage.Content>
         <StackLayout Padding="10">
-            <Label Text="Nivel 1" FontSize="Large" HorizontalOptions="Center" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="No es la respuesta" Clicked="OnIncorrectAnswerClicked" />
-            <Button Text="Es la respuesta" Clicked="OnCorrectAnswerClicked" />
+            <BoxView HeightRequest="25" Color="Transparent" /> <!-- Espacio de 20 unidades -->
+            <Label Text="Nivel 2" FontSize="Large" HorizontalOptions="Center" />
+            <ImageButton Source="banana.webp" Aspect="Fill" HeightRequest="205" WidthRequest="200" HorizontalOptions="CenterAndExpand" Clicked="OnImageClicked" />
+            <Label Text="Con piel amarilla y sabor dulce, en racimos crezco, ¿qué soy?" FontSize="Body" HorizontalTextAlignment="Center" Padding="25"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="MELÓN" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+                <Button Text="PIÑA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="MANGO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+                <Button Text="DURAZNO" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnIncorrectAnswerClicked" Margin="3" />
+            </StackLayout>
+            <Button Text="BANANA" CornerRadius="15" WidthRequest="164" HorizontalOptions="Center" Clicked="OnCorrectAnswerClicked" Margin="3" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,6 +4,7 @@
              x:Class="HalcyonJuegoSensorial.viewLayer.ViewScore">
     <ContentPage.Content>
         <StackLayout Padding="10">
+            <Image Source="puntaje_logo.png" HeightRequest="205" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center"/>
             <Label Text="Lista de Usuarios" FontSize="Large" HorizontalOptions="Center" />
             <ListView x:Name="UsersListView">
                 <ListView.ItemTemplate>
